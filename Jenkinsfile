@@ -52,7 +52,7 @@ sh '''
 
 sh '''
 
-./mvnw package -DskipTests -Dquarkus.jib.base-jvm-image=quay.io/redhattraining/do400-java-alpineopenjdk11-jre:latest -Dquarkus.container-image.build=true -Dquarkus.container-image.registry=quay.io -Dquarkus.container-image.group=madhubalijepalli -Dquarkus.container-image.name=do400-deploying-environments -Dquarkus.container-image.username=madhubalijepalli -Dquarkus.container-image.password=8437d86449054c4b951d -Dquarkus.container-image.push=true
+./mvnw package -DskipTests -Dquarkus.jib.base-jvm-image=quay.io/redhattraining/do400-java-alpine-openjdk11-jre:latest -Dquarkus.container-image.build=true -Dquarkus.container-image.registry=quay.io -Dquarkus.container-image.group=madhubalijepalli -Dquarkus.container-image.name=do400-deploying-environments -Dquarkus.container-image.username=madhubalijepalli -Dquarkus.container-image.password=8437d86449054c4b951d -Dquarkus.container-image.push=true
 
 '''
 
